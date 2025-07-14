@@ -121,14 +121,23 @@ footer {
 /* ================================== */
 
 .adventure-card {
+  height: 30vh;
+  width: 30vh;
+  overflow: hidden;
+  border-radius: 5px;
   /* TODO: MODULE_ADVENTURES_GRID */
   /* 1. Fill in the required properties. */
 }
 .adventure-card img {
+  object-fit: cover;
+  transition: all 0.3s ease-in-out;
+ 
   /* TODO: MODULE_ADVENTURES_GRID */
   /* 1. Fill in the required properties. */
 }
 .adventure-card img:hover {
+  filter: brightness(0.5);
+  transform: scale(1.05);
   /* TODO: MODULE_ADVENTURES_GRID */
   /* 1. Fill in the required properties. */
 }
