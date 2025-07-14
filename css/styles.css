@@ -49,10 +49,16 @@ footer {
 /* ================================== */
 
 .tile {
+ position: relative;
+ margin-top: 5vh;  
+ overflow: hidden;
+ border-radius: 20px;
   /* TODO: MODULE_CARDS */
   /* 1. Fill in the required properties. */
 }
 .tile img {
+  position: relative;
+  height: 40vh;
   /* TODO: MODULE_CARDS */
   /* 1. Fill in the required properties. */
 }
@@ -68,6 +74,11 @@ footer {
   z-index: 1;
   text-transform: uppercase;
   letter-spacing: 2px;
+  bottom: 0px;
+  right: 0px;
+  left: 0px;
+  text-align: center;
+
 }
 
 .hero-image {
